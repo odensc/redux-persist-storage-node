@@ -1,6 +1,6 @@
 {
   "name": "redux-persist-storage-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "`redux-persist` storage for Node.js/Electron.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
