@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "outDir": "./lib",
+        "declaration": true,
+
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+
+        "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true,
+        "forceConsistentCasingInFileNames": true,
+
+        "module": "commonjs",
+        "moduleResolution": "node",
+
+        "target": "es5",
+		"lib": [
+			"es5",
+			"es2015.promise"
+		]
+    },
+    "files": [
+        "./src/index.ts"
+    ],
+    "include": [
+        "./src/definitions/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "lib"
+    ]
+}

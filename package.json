@@ -1,0 +1,35 @@
+{
+  "name": "redux-persist-storage-node",
+  "version": "1.0.0",
+  "description": "`redux-persist` storage for Node.js/Electron.",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "devDependencies": {
+    "@types/node": "^6.0.69",
+    "typescript": "^2.2.2"
+  },
+  "scripts": {
+    "prepublish": "npm test && tsc",
+    "test": "echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesbros/redux-persist-storage-node.git"
+  },
+  "keywords": [
+    "redux-persist",
+    "redux",
+    "persist",
+    "storage",
+    "electron",
+    "json",
+    "node",
+    "fs"
+  ],
+  "author": "thesbros",
+  "license": "X11",
+  "bugs": {
+    "url": "https://github.com/thesbros/redux-persist-storage-node/issues"
+  },
+  "homepage": "https://github.com/thesbros/redux-persist-storage-node#readme"
+}
