@@ -72,7 +72,8 @@ export default class NodeStorage
 					return reject(err);
 				}
 
-				resolve(JSON.parse(data));
+				this.cache = JSON.parse(data);
+				resolve();
 			});
 		});
 	}
